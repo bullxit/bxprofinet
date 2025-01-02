@@ -1,16 +1,9 @@
-﻿using f10.profinet.opentcp;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Net.Sockets;
 using System.Net;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections.ObjectModel;
 
-namespace f10.profinet.test
+namespace bx.profinet.test
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
@@ -31,13 +24,13 @@ namespace f10.profinet.test
             //plc.Disconnect();
 
 
-           
-                IPEndPoint ipep = new IPEndPoint(IPAddress.Any, 2000);
-                UdpClient newsock = new UdpClient(ipep);
 
-                Console.WriteLine("Waiting for a client...");
+            IPEndPoint ipep = new IPEndPoint(IPAddress.Any, 2000);
+            UdpClient newsock = new UdpClient(ipep);
 
-                IPEndPoint sender = new IPEndPoint(IPAddress.Any, 0);
+            Console.WriteLine("Waiting for a client...");
+
+            IPEndPoint sender = new IPEndPoint(IPAddress.Any, 0);
 
 
             while (true)
@@ -45,10 +38,6 @@ namespace f10.profinet.test
                 byte[] data = newsock.Receive(ref sender);
                 Console.WriteLine($"Bytes {data.Length}:", Convert.ToHexString(data));
             }
-
-           
-
-
         }
     }
 }

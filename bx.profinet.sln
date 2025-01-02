@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bx.profinet.tcpclient.standard", "bx.profinet.tcpclient.standard\bx.profinet.tcpclient.standard.csproj", "{98654DDF-CA1F-43AD-BA14-2DA5D1F1106A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bx.profinet.test", "bx.profinet.test\bx.profinet.test.csproj", "{5EDCF5A9-63B0-4BBB-BDAA-9328B36BD85F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bx.profinet.tcpclient", "bx.profinet.tcpclient\bx.profinet.tcpclient.csproj", "{9A6180CD-383C-4D7A-AF0C-96E5730C6CE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bx.profinet.test", "bx.profinet.test\bx.profinet.test.csproj", "{82AFB851-4664-4F4D-9251-62A659FEC1FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{98654DDF-CA1F-43AD-BA14-2DA5D1F1106A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98654DDF-CA1F-43AD-BA14-2DA5D1F1106A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98654DDF-CA1F-43AD-BA14-2DA5D1F1106A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5EDCF5A9-63B0-4BBB-BDAA-9328B36BD85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5EDCF5A9-63B0-4BBB-BDAA-9328B36BD85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5EDCF5A9-63B0-4BBB-BDAA-9328B36BD85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5EDCF5A9-63B0-4BBB-BDAA-9328B36BD85F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A6180CD-383C-4D7A-AF0C-96E5730C6CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A6180CD-383C-4D7A-AF0C-96E5730C6CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A6180CD-383C-4D7A-AF0C-96E5730C6CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A6180CD-383C-4D7A-AF0C-96E5730C6CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82AFB851-4664-4F4D-9251-62A659FEC1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AFB851-4664-4F4D-9251-62A659FEC1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AFB851-4664-4F4D-9251-62A659FEC1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AFB851-4664-4F4D-9251-62A659FEC1FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
