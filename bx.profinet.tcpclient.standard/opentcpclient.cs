@@ -2142,10 +2142,10 @@ namespace bx.profinet.opentcp
 
         #region [Data I/O main functions]
 
-        public int ReadBits(int Area, int DBNumber, int Start, byte Bit, byte[] Buffer)
+        public int ReadBits(int Area, int DBNumber, int Start, byte Bit, int howmany, byte[] Buffer)
         {
             int BytesRead = 0;
-            return ReadArea(Area, DBNumber, (Start * 8) + Bit, 1, S7Consts.S7WLBit, Buffer, ref BytesRead);
+            return ReadArea(Area, DBNumber, (Start * 8) + Bit, howmany, S7Consts.S7WLBit, Buffer, ref BytesRead);
         }
 
         public int ReadArea(int Area, int DBNumber, int Start, int Amount, int WordLen, byte[] Buffer)

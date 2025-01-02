@@ -8,6 +8,18 @@
     <Title>bullxit profinet client</Title>
     <Copyright>bullxit industries 2025</Copyright>
     <PackageIcon>Logo_square_2.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/bullxit/bxprofinet</RepositoryUrl>
+    <PackageTags>profinet</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Description>Library to connect and communicate with profinet devices such as siemens PLCs</Description>
+    <AssemblyVersion>1.7.1.0</AssemblyVersion>
+	<FileVersion>$(AssemblyVersion)</FileVersion>
+	<Version>$(AssemblyVersion)</Version>
+	<PackageProjectUrl>https://github.com/bullxit/bxprofinet</PackageProjectUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,7 +27,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\..\kametech\OneDrive - KAMETECH\Logos\Logo_square_2.png">
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Logo_square_2.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

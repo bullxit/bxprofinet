@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\bx.profinet.tcpclient\bx.profinet.tcpclient.csproj" />
+  </ItemGroup>
+
 </Project>
