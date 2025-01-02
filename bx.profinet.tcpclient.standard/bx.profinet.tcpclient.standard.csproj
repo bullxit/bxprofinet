@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>bx.profinet.tcpclient</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.9</Version>
+    <Authors>João André Morais</Authors>
+    <Company>Formula Decimal</Company>
+    <Product>Pulsar</Product>
+    <Copyright>Copyright F10 2022</Copyright>
+    <Description>Biblioteca de comunicação com PLC da Siemens</Description>
+    <PackageTags>profinet, plc, siemens, s7</PackageTags>
+    <PackageReleaseNotes>PE -&gt; I
+PA -&gt; Q
+ReadBits</PackageReleaseNotes>
+    <PackageId>f10.profinet.client</PackageId>
+    <Title>PROFINET Client</Title>
+  </PropertyGroup>
+
+</Project>
